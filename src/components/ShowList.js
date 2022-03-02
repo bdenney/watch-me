@@ -1,9 +1,9 @@
 import React from 'react';
 import ShowCard from './ShowCard';
 
-function ShowList({shows}) {
+function ShowList({shows, onAddToWatchList}) {
     const showCards = shows.map(show => {
-        return <ShowCard key={show.id} show={show}/>
+        return <ShowCard key={show.id} show={show} onShowClicked={onAddToWatchList}/>
     })
 
     return(

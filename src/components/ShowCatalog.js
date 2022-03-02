@@ -5,6 +5,8 @@ import ShowList from './ShowList'
 function ShowCatalog() {
 
     const [shows, setShows] = useState([]);
+    const [watchList, setWatchList] = useState([]);
+
 
     useEffect(() => {
         fetch("http://localhost:8081/shows")
@@ -14,10 +16,19 @@ function ShowCatalog() {
         });
     }, []);
 
+    function handleAddToWatchList(show) {
+        const foundIndex = watchList.findIndex(item => show.id === item.id);
+        if (foundIndex === -1) {
+            setWatchList([...watchList, show]);
+        } else {
+            console.log("Show already on watch list...");
+        }
+    }
+
     return(
         <>
-            <MyWatchList />
-            <ShowList shows={shows} />
+            <MyWatchList watchList={watchList} />
+            <ShowList shows={shows} onAddToWatchList={handleAddToWatchList}  />
         </>
     );
 }

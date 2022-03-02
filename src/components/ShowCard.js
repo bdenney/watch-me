@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ShowCard({show}) {
+function ShowCard({show, onShowClicked}) {
 
     function getStreamingLogo(streamOnString) {
         let imgSrc;
@@ -25,12 +25,13 @@ function ShowCard({show}) {
     }
 
     return(
-        <div className="show-card">
+        <div className="show-card" onClick={() => onShowClicked(show)}>
             <img src={show.image} alt="cover art" className="show-art"/>
             <div className="details-container">
                 <h3>{show.name}</h3>
                 <p>{show.summary}</p>
                 <img src={getStreamingLogo(show.stream_on)} alt={show.stream_on} className="streaming-logo"></img>
+                <button>Delete</button>
             </div>
         </div>
     );
