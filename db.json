@@ -1,0 +1,144 @@
+{
+    "shows" : [
+        {
+            "id": 1,
+            "name": "Futurama",
+            "summary": "Futurama follows pizza guy Philip J. Fry, who reawakens in 31st century New New York after a cryonics lab accident. Now part of the Planet Express delivery crew, Fry travels to the farthest reaches of the universe with his robot buddy Bender and cyclopsian love interest Leela, discovering freaky mutants, intergalactic conspiracies and other strange stuff.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/4/11403.jpg",
+            "stream_on": "Hulu"
+        },
+        {
+            "id": 2,
+            "name": "Last Week Tonight with John Oliver",
+            "summary": "On Last Week Tonight with John Oliver, John Oliver presents a satirical look at the week in news, politics and current events.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/392/980542.jpg",
+            "stream_on": "HBO"
+        },
+        {
+            "id": 3,
+            "name": "Game of Thrones",
+            "summary": "Based on the bestselling book series \"A Song of Ice and Fire\" by George R.R. Martin, this sprawling new HBO drama is set in a world where summers span decades and winters can last a lifetime. From the scheming south and the savage eastern lands, to the frozen north and ancient Wall that protects the realm from the mysterious darkness beyond, the powerful families of the Seven Kingdoms are locked in a battle for the Iron Throne. This is a story of duplicity and treachery, nobility and honor, conquest and triumph. In the Game of Thrones, you either win or you die.",s
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/190/476117.jpg",
+            "stream_on": "HBO"
+        },
+        {
+            "id": 4,
+            "name": "Stranger Things",
+            "summary": "A love letter to the '80s classics that captivated a generation, Stranger Things is set in 1983 Indiana, where a young boy vanishes into thin air. As friends, family and local police search for answers, they are drawn into an extraordinary mystery involving top-secret government experiments, terrifying supernatural forces and one very strange little girl.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/396/991288.jpg",
+            "stream_on": "Netflix"
+        },
+        {
+            "id": 5,
+            "name": "Brooklyn Nine-Nine",
+            "summary": "Brooklyn Nine-Nine is an ensemble comedy about a talented-but-carefree detective, a by-the-book police captain and their precinct colleagues. While based in the workplace, Brooklyn Nine-Nine is not really about the job – it's about the men and women behind the badge.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/340/850857.jpg",
+            "stream_on": "Peacock"
+        },
+        {
+            "id": 6,
+            "name": "30 Rock",
+            "summary": "Multiple award-winning comedy 30 Rock is told through the comedic voice of Emmy and two-time Golden Globe winner Tina Fey as variety show producer Liz Lemon. The series also features two-time Emmy and three-time Golden Globe winner Alec Baldwin as top network executive Jack Donaghy and Emmy nominee Tracy Morgan as Tracy Jordan, the unpredictable star of Lemon's hit variety show, TGS with Tracy Jordan, Lemon constantly has her hands full, juggling corporate interference from Donaghy and off-the-handle star antics from Jordan, all while attempting to salvage her own personal life.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/64/160233.jpg",
+            "stream_on": "Peacock"
+        },
+        {
+            "id": 7,
+            "name": "The X-Files",
+            "summary": "Two FBI agents, Fox Mulder (a believer) and Dana Scully (a skeptic), investigate unexplained cases where the paranormal might be involved while hidden forces work to impede their efforts.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/143/357928.jpg",
+            "stream_on": "Hulu"
+        },
+        {
+            "id": 8,
+            "name": "Breaking Bad",
+            "summary": "Breaking Bad follows protagonist Walter White, a chemistry teacher who lives in New Mexico with his wife and teenage son who has cerebral palsy. White is diagnosed with Stage III cancer and given a prognosis of two years left to live. With a new sense of fearlessness based on his medical prognosis, and a desire to secure his family's financial security, White chooses to enter a dangerous world of drugs and crime and ascends to power in this world. The series explores how a fatal diagnosis such as White's releases a typical man from the daily concerns and constraints of normal society and follows his transformation from mild family man to a kingpin of the drug trade.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/0/2400.jpg",
+            "stream_on": "Netflix"
+        },
+        {
+            "id": 9,
+            "name": "Rick and Morty",
+            "summary": "Rick is a mentally gifted, but sociopathic and alcoholic scientist and a grandfather to Morty; an awkward, impressionable, and somewhat spineless teenage boy. Rick moves into the family home of Morty, where he immediately becomes a bad influence.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/1/3603.jpg",
+            "stream_on": "Hulu"
+        },
+        {
+            "id": 10,
+            "name": "The Twilight Zone",
+            "summary": "A groundbreaking series by Rod Serling, this half-hour anthology featured tales of the strange, the macabre, and the unusual. Some were science fiction, some were supernatural, and some defied easy categorization.This five-season series is best known for its twist endings. Many of the stories were written by Serling himself, others were crafted by Richard Matheson, Charles Beaumont, Earl Hammer Jr. and Ray Bradbury.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/308/772149.jpg",
+            "stream_on": "Amazon"
+        },
+        {
+            "id": 11,
+            "name": "Cowboy Bebop",
+            "summary": "Cowboy Bebop is about three bounty hunters, aka \"cowboys,\" all trying to outrun the past. As different as they are deadly, Spike Spiegel, Jet Black, and Faye Valentine form a scrappy, snarky crew ready to hunt down the solar system's most dangerous criminals — for the right price. But they can only kick and quip their way out of so many scuffles before their pasts finally catch up with them.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/394/985036.jpg",
+            "stream_on": "Netflix"
+        },
+        {
+            "id": 12,
+            "name": "Monty Python's Flying Circus",
+            "summary": "And now for something completely different: Monty Python's Flying Circus was simply the most influential comedy program television has ever seen. Five Englishmen, all working under the constraints of conventional TV shows such as The Frost Report (for which the five Englishmen wrote), gathered together with an expatriate American in the spring of 1969 to break the rules. The result, first airing on BBC-1 on October 5, 1969, has influenced countless future men and women in the media and comedy since.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/5/14980.jpg",
+            "stream_on": "Netflix"
+        },
+        {
+            "id": 13,
+            "name": "It's Always Sunny in Philadelphia",
+            "summary": "It's Always Sunny in Philadelphia is an American comedy series about four friends in their late 20s with clear sociopathic tendencies who run an unsuccessful Irish bar, \"Paddy's Pub,\" in South Philadelphia.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/379/948471.jpg",
+            "stream_on": "Hulu"
+        },
+        {
+            "id": 14,
+            "name": "Silicon Valley",
+            "summary": "In the high-tech gold rush of modern Silicon Valley, the people most qualified to succeed are the least capable of handling success. From Mike Judge comes this satire about a programmer whose game-changing algorithm becomes the subject of a valley-wide bidding war.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/215/538434.jpg",
+            "stream_on": "HBO"
+        },
+        {
+            "id": 15,
+            "name": "Fullmetal Alchemist",
+            "summary": "Edward Elric, a young, brilliant alchemist, has lost much in his twelve-year life: when he and his brother Alphonse try to resurrect their dead mother through the forbidden act of human transmutation, Edward loses his family as well as two of his limbs. With his supreme alchemy skills, Edward binds Alphonse's soul to a large suit of armor.<br><br>A year later, Edward, now promoted to the fullmetal alchemist of the state, embarks on a journey with his younger brother to obtain the Philosopher's Stone. The fabled mythical object is rumored to be capable of amplifying an alchemist's abilities by leaps and bounds, thus allowing them to override the fundamental law of alchemy: to gain something, an alchemist must sacrifice something of equal value. Edward hopes to draw into the military's resources to find the fabled stone with his power and restore his and Alphonse's bodies to normal. However, the Elric brothers soon discover that there is more to the legendary stone than meets the eye, as they are led to the epicenter of a far darker battle than they could have ever imagined.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/20/51196.jpg",
+            "stream_on": "Netflix"
+        },
+        {
+            "id": 16,
+            "name": "Mystery Science Theater 3000",
+            "summary": "Mystery Science Theater 3000 started as a locally produced television show for KTMA in Minnesota but soon grew in popularity. It moved to Comedy Central (originally the Comedy Channel), then to Syfy. After an eighteen-year hiatus, the crew of the Satellite of Love returned in 2017, airing on Netflix for two seasons. In 2021, the production started its own streaming service, The Gizmoplex, where the riffing of cheesy movies continues. Over the years, there have been several \"test subjects\": Joel Robinson, Mike Nelson, Jonah Heston, and Emily Connor along with their robot friends Tom Servo, Crow T Robot, and Gypsy (now GPC) all subjected to bad movies thanks to a host of mad scientists including Doctor Clayton Forrester, his mother Pearl, and most recently Kinga Forrester.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/172/431207.jpg",
+            "stream_on": "Netflix"
+        },
+        {
+            "id": 17,
+            "name": "This Is Us",
+            "summary": "Sometimes life will surprise you. This refreshingly honest and provocative series follows a unique ensemble whose paths cross and their life stories intertwine in curious ways. We find several of them share the same birthday, and so much more than anyone would expect. From the writer and directors of \"Crazy, Stupid, Love\" comes a smart, modern dramedy that will challenge your everyday presumptions about the people you think you know.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/384/961910.jpg",
+            "stream_on": "Peacock"
+        },
+        {
+            "id": 18,
+            "name": "Parks and Recreation",
+            "summary": "Parks and Recreation is a comedy series based around the main character Leslie Knope (a bureaucrat) in the parks department of Pawnee.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/0/2439.jpg",
+            "stream_on": "Peacock"
+        },
+        {
+            "id": 19,
+            "name": "The Boys",
+            "summary": "In a world where superheroes embrace the darker side of their massive celebrity and fame, <b>The Boys</b> centres on a group of vigilantes known informally as \"The Boys,\" who set out to take down corrupt superheroes with no more than blue collar grit and a willingness to fight dirty.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/267/668204.jpg",
+            "stream_on": "Amazon"
+        },
+        {
+            "id": 20,
+            "name": "The Marvelous Mrs. Maisel",
+            "summary": "It's 1958 Manhattan and Miriam \"Midge\" Maisel has everything she's ever wanted - the perfect husband, kids, and Upper West Side apartment. But when her life suddenly takes a turn and Midge must start over, she discovers a previously unknown talent - one that will take her all the way from the comedy clubs of Greenwich Village to a spot on Johnny Carson's couch.",
+            "image": "https://static.tvmaze.com/uploads/images/original_untouched/395/987966.jpg",
+            "stream_on": "Amazon"
+        }
+    ]
+}
