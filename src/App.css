@@ -39,3 +39,9 @@ html, body {
     width:100%;
     object-fit: cover;
 }
+
+.watch-list-container {
+    display:flex;
+    overflow-y: auto;
+    height:20%;
+}
