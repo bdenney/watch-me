@@ -1,10 +1,10 @@
 import React from 'react';
 import ShowCard from './ShowCard';
 
-function MyWatchList({watchList, onAddToWatchList}) {
+function MyWatchList({watchList, onRemoveFromWatchList}) {
 
     const showCards = watchList.map(show => {
-        return <ShowCard key={show.id} show={show} onShowClicked={onAddToWatchList} />
+        return <ShowCard key={show.id} show={show} onShowClicked={onRemoveFromWatchList} />
     });
 
     return(

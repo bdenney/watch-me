@@ -25,9 +25,21 @@ function ShowCatalog() {
         }
     }
 
+    function handleRemoveFromWatchList(show) {
+        const foundIndex = watchList.findIndex(item => show.id === item.id);
+        if (foundIndex === -1) {
+            console.log("Show isn't in the watch list...");
+        } else {
+            const copyArray = [...watchList];
+            copyArray.splice(foundIndex, 1);
+            
+            setWatchList(copyArray);
+        }
+    }
+
     return(
         <>
-            <MyWatchList watchList={watchList} />
+            <MyWatchList watchList={watchList} onRemoveFromWatchList={handleRemoveFromWatchList} />
             <ShowList shows={shows} onAddToWatchList={handleAddToWatchList}  />
         </>
     );
