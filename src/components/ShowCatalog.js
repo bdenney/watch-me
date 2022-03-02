@@ -37,10 +37,22 @@ function ShowCatalog() {
         }
     }
 
+    function handleShowDelete(show) {
+        /*
+        fetch("http://localhost:8081/"+show.id, {
+            method: "DELETE",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        */
+       console.log("Deleting id " + show.id + "!");
+    }
+
     return(
         <>
-            <MyWatchList watchList={watchList} onRemoveFromWatchList={handleRemoveFromWatchList} />
-            <ShowList shows={shows} onAddToWatchList={handleAddToWatchList}  />
+            <MyWatchList watchList={watchList} onRemoveFromWatchList={handleRemoveFromWatchList} onShowDelete={handleShowDelete} />
+            <ShowList shows={shows} onAddToWatchList={handleAddToWatchList} onShowDelete={handleShowDelete} />
         </>
     );
 }
