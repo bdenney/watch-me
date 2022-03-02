@@ -28,10 +28,14 @@ function ShowCard({show, onShowClicked, onShowDelete}) {
         <div className="show-card" onClick={() => onShowClicked(show)}>
             <img src={show.image} alt="cover art" className="show-art"/>
             <div className="details-container">
-                <h3>{show.name}</h3>
+                <header>
+                    <h3>{show.name}</h3>                    
+                </header>
                 <p>{show.summary}</p>
-                <img src={getStreamingLogo(show.stream_on)} alt={show.stream_on} className="streaming-logo"></img>
-                <button onClick={() => onShowDelete(show)}>Delete</button>
+                <footer>
+                    <img src={getStreamingLogo(show.stream_on)} alt={show.stream_on} className="streaming-logo"></img>
+                    <button onClick={() => onShowDelete(show)}>Delete</button>
+                </footer>
             </div>
         </div>
     );
