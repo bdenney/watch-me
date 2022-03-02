@@ -7,9 +7,9 @@ function ShowList({shows}) {
     })
 
     return(
-        <>
-        {showCards}
-        </>
+        <div className="show-container">
+            {showCards}
+        </div>
     );
 }
 

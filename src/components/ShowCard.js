@@ -26,12 +26,12 @@ function ShowCard({show}) {
 
     return(
         <div className="show-card">
-            <div>
-                <img src={show.image} alt="cover art"></img>
+            <img src={show.image} alt="cover art" className="show-art"/>
+            <div className="details-container">
                 <h3>{show.name}</h3>
+                <p>{show.summary}</p>
+                <img src={getStreamingLogo(show.stream_on)} alt={show.stream_on} className="streaming-logo"></img>
             </div>
-            <p>{show.summary}</p>
-            <img src={getStreamingLogo(show.stream_on)} alt={show.stream_on}></img>
         </div>
     );
 }
