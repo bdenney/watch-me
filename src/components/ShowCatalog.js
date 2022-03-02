@@ -52,6 +52,7 @@ function ShowCatalog() {
     return(
         <>
             <MyWatchList watchList={watchList} onRemoveFromWatchList={handleRemoveFromWatchList} onShowDelete={handleShowDelete} />
+            <hr/>
             <ShowList shows={shows} onAddToWatchList={handleAddToWatchList} onShowDelete={handleShowDelete} />
         </>
     );

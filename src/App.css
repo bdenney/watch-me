@@ -1,7 +1,25 @@
+/* palette: https://coolors.co/efefef-574bdb-fb3640-161925-a7754d */
+
 html, body, #root {
     margin:0px;
     padding:1em;
     height:100vh;
+    background-color: #EFEFEF;
+    color: #161925;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    height:20%;
+    margin-bottom: 1em;
+}
+
+header img {
+    height:100%;
+}
+
+hr {
+    border: .1em solid #FB3640
 }
 
 /*
@@ -52,12 +70,13 @@ html, body, #root {
 .show-card h3 {
     white-space: nowrap;
     text-overflow: ellipsis;
-    font-size:1em;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
 }
 
 .details-container header {
     display:flex;
-    min-height:30%;
+    min-height:10%;
 }
 
 .details-container header button {
