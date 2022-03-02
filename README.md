@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# WatchMe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![WatchMe](./finished-project.png)
 
-## Available Scripts
+WatchMe® is a convenient way to create a WatchList™️ that you can then share with your fellow Watchers™️®. As a new hire of WatchMe® you are tasked with building the first version of the app for your startup.
 
-In the project directory, you can run:
+Fueled by Red Bull and free startup snacks you are determined to get this working in 90 minutes.
 
-### `npm start`
+## Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For this project, you’ll be building out a React application that displays a
+list of shows, among other features. Try your best to find the right
+places to insert code into the established code base.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Part of what this code challenge is testing is your ability to follow given
+instructions. While you will definitely have a significant amount of freedom in
+how you implement the features, be sure to carefully read the directions for
+setting up the application.
 
-### `npm test`
+## Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Run `npm install` in your terminal.
+2. Run `npm run server`. This will run your backend on port `8081`.
+3. In a new terminal, run `npm start`.
 
-### `npm run build`
+Make sure to open [http://localhost:8081/shows](http://localhost:8081/shows) in
+the browser to verify that your backend is working before you proceed!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The base URL for your backend is: `http://localhost:8081`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Core Deliverables
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As a user, I should be able to:
 
-### `npm run eject`
+- See all the details of the shows rendered in `ShowList`.
+- Add a show from the `ShowList` to `MyWatchList` by clicking on it. The selected show should render in the `MyWatchList` component. The show can be added only **once**. The item **does not** disappear from the `ShowList`.
+- Remove a show from `MyWatchList` by clicking on it. The show disappears from the `MyWatchList` component.
+- Remove a show forever by clicking the delete button at the bottom of the each `ShowCard`. This should delete the show from both the backend and the frontend.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Endpoints for Core Deliverables
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### GET /shows
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Example Response:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```json
+[
+    {
+        "id": 1,
+        "name": "Futurama",
+        "summary": "Futurama follows pizza guy Philip J. Fry, who reawakens in 31st century New New York after a cryonics lab accident. Now part of the Planet Express delivery crew, Fry travels to the farthest reaches of the universe with his robot buddy Bender and cyclopsian love interest Leela, discovering freaky mutants, intergalactic conspiracies and other strange stuff.",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/4/11403.jpg",
+        "stream_on": "Hulu"
+    },
+    {
+        "id": 2,
+        "name": "Last Week Tonight with John Oliver",
+        "summary": "On Last Week Tonight with John Oliver, John Oliver presents a satirical look at the week in news, politics and current events.",
+        "image": "https://static.tvmaze.com/uploads/images/original_untouched/392/980542.jpg",
+        "stream_on": "HBO"
+    }
+]
+```
 
-## Learn More
+#### DELETE /shows/:id
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Example Response:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```json
+{}
+```
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
